@@ -8,9 +8,9 @@ import java.util.ArrayList;
  * @author Abdullah jubayer
  */
 public class Employee {
-    String employeeName;
-    String employeeId;
-    String employeeDesignation;
+    private String employeeName;
+    private String employeeId;
+    private String employeeDesignation;
     String employeeSalary;
     /*has a relation(one to one)*/
     EmployeeAddress employeeAddress;
@@ -35,16 +35,8 @@ public class Employee {
         return employeeName;
     }
 
-    public void setEmployeeName(String employeeName) {
-        this.employeeName = employeeName;
-    }
-
     public String getEmployeeId() {
         return employeeId;
-    }
-
-    public void setEmployeeId(String employeeId) {
-        this.employeeId = employeeId;
     }
 
     public String getEmployeeDesignation() {
@@ -62,5 +54,12 @@ public class Employee {
     public void setEmployeeSalary(String employeeSalary) {
         this.employeeSalary = employeeSalary;
     }
+
+    @Override
+    public String toString() {
+        return "This is Employee Class"; //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
     
 }

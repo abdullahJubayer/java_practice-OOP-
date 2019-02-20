@@ -56,6 +56,11 @@ public class EmployeeProjects {
     public void setTeamMemberDetailes(ArrayList<TeamMember> teamMemberDetailes) {
         this.teamMemberDetailes = teamMemberDetailes;
     }
+
+    @Override
+    public String toString() {
+        return "This is Employee Projects Class"; //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }

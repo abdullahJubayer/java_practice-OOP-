@@ -4,7 +4,7 @@ public class Address {
     String roadNo;
     String zipCode;
     String city;
-    String division;
+    private String division;
 
     public Address(String roadNo, String zipCode, String city, String division) {
         this.roadNo = roadNo;
@@ -37,5 +37,12 @@ public class Address {
     public String getDivision(){
         return division;
     }
+
+    @Override
+    public String toString() {
+        return "This is Address Class"; //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
     
 }

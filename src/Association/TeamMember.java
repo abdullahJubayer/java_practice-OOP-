@@ -34,6 +34,13 @@ class TeamMember {
     public void setRojectMemberWorkType(String rojectMemberWorkType) {
         this.rojectMemberWorkType = rojectMemberWorkType;
     }
+
+    @Override
+    public String toString() {
+        return "This is Team Member Class"; //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
     
     
 }
